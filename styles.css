@@ -23,6 +23,7 @@
 
 .number{
     margin-right: 20px;
+    font-family: 'digitaldream';
 }
 
 .interface{
@@ -39,8 +40,14 @@ button{
     height: 100px;
     width: 100px;
     margin: 5px;
+    font-size: 30px;
 }
 
 #zero{
     width: 210px;
 }
+
+@font-face{
+    font-family:'digitaldream';
+    src: url('./fonts/DIGITALDREAM.ttf');
+   }
