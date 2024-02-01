@@ -11,14 +11,16 @@
     height:600px;
     width: 500px;
     padding: 50px;
+    border-radius: 12px;
 }
 
 .display{
-    background-color: white;
+    background-color: rgb(118, 149, 127);
     height: 80px;
     width: 500px;
     display: flex;
     justify-content: flex-end;
+    background-color: ;
 }
 
 .number{
@@ -41,6 +43,15 @@ button{
     width: 100px;
     margin: 5px;
     font-size: 30px;
+    color: white;
+}
+
+.greyButton{
+    background-color: rgb(99, 98, 98);
+}
+
+.orangeButton{
+    background-color: orange;
 }
 
 #zero{
